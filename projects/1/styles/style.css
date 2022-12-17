@@ -2,7 +2,7 @@
     height: 520px;
     width: 100%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
-    background: url("../../../../assets/images/project-1/cover.png") no-repeat;
+    background: url("../../../assets/images/project-1/cover.png") no-repeat;
     background-size: cover;
 }
 
@@ -15,7 +15,7 @@
     background-color: #ffffff;
 }
 
-.main_inner {
+.inner {
     width: 1172px;
 }
 
@@ -31,9 +31,7 @@
     left: -200px;
 }
 
-.back-icon {
-    background: url("../../../../assets/icons/arrow-back.svg") no-repeat;
-}
+
 
 .description-table {
     display: flex;
@@ -66,7 +64,6 @@
 .external-link-icon {
     width: 20px;
     height: 20px;
-    background: url("../../../../assets/icons/external-link.svg") no-repeat;
     background-size: contain;
     cursor: pointer;
     margin-left: 8px;
@@ -75,13 +72,17 @@
 .steps {
     margin-top: 62px;
     display: flex;
+    width: 100%;
     flex-direction: column;
+    align-items: center;
     gap: 62px;
 }
 
 .step {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
     gap: 16px;
 }
 
@@ -94,11 +95,11 @@
 }
 
 .step-preview {
-    height: 720px;
+    min-height: 150px;
     width: 100%;
-    margin-top: 88px;
-    margin-bottom: 24px;
-    background: url("../../../../assets/images/project-1/slide.png");
+    margin: 24px 0;
+    background: url("../../../assets/images/project-1/slide.png") no-repeat;
+    background-size: contain;
 }
 
 .step-preview-description {

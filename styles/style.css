@@ -2,16 +2,23 @@
     width: 100%;
     padding: 16px;
     display: flex;
+    justify-content: center;
     background: rgba(253, 253, 253, 0.7);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #89559A;
     position: fixed;
+    z-index: 3;
+}
+
+.header-inner {
+    display: flex;
+    width: 1172px;
+    justify-content: space-between;
 }
 
 .header_item {
     flex: 1;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -19,13 +26,31 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: end;
     flex: 1;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.resume > svg {
+    cursor: pointer;
+}
+
+.resume:hover > .small-text {
+    color: #89559A;
+}
+
+.resume:hover > svg > path {
+    stroke: #89559A;
 }
 
 .download-icon {
     width: 20px;
     height: 20px;
-    background: url("../../assets/icons/download.svg") no-repeat;
     background-size: contain;
     cursor: pointer;
     margin-left: 8px;
@@ -46,28 +71,45 @@
     align-items: center;
     justify-content: center;
     gap: 64px;
-    padding: 187px 0 94px 0;
+    padding: 160px 0 40px 0;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
     width: 100%;
+}
 
+.main-inform_inner {
+    width: 1172px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.main-body {
+    display: flex;
+    gap: 28px;
+    max-width: 1172px;
+    padding: 40px 0 120px 0;
+}
+
+.main-about-me {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 572px;
+    gap: 16px;
 }
 
 .description {
-    max-width: 640px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 56px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
     gap: 28px;
-    flex-wrap: wrap;
-    max-width: 1300px;
-    margin-bottom: 64px;
 }
 
 .card {
@@ -79,6 +121,13 @@
     border-radius: 20px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
     padding: 24px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
 }
 
 .card_header {
@@ -100,9 +149,6 @@
 }
 
 .card_image {
-    width: 228px;
     height: 212px;
-    background: url("../../assets/images/cards/1.png") no-repeat;
-    background-size: contain;
 }
 

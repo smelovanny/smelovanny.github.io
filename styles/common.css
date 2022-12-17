@@ -27,12 +27,24 @@ h3 {
     color: #000000;
 }
 
+a{
+    text-decoration: none;
+}
+
 .link {
     text-decoration: none;
 }
 
+.link:hover {
+    color: #89559A;
+}
+
 .flex {
     display: flex;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .pointer {
@@ -45,19 +57,25 @@ h3 {
     font-size: 14px;
     color: #222424;
     font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+}
+
+.small-text-bold {
+    font-weight: bold;
 }
 
 .accent {
     color: #89559A;
 }
+
 .secondary {
     color: #A8A8A8;
 }
 
 .normal-text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 28px;
     color: #222424;
 }
 
@@ -69,21 +87,30 @@ h3 {
     cursor: pointer;
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
-.button-icon {
-    width: 20px;
-    height: 20px;
-    background-size: contain;
-    margin-right: 8px;
+.button:hover {
+    background: #89559A;
+    color: white;
+    border: 1px solid #89559A;
+}
+
+.button:hover > svg > path {
+    stroke: white;
 }
 
 .back-up-button {
     position: fixed;
     right: 54px;
-    bottom: 54px;
+    bottom: 120px;
 }
 
-.back-up-icon {
-    background: url("../../assets/icons/arrow-up.svg") no-repeat;
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_items {
+    padding-left: 20px;
 }

@@ -6,25 +6,29 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project 1</title>
-    <link rel="stylesheet" href="../../styles">
+    <link rel="stylesheet" href="../../styles/index.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
 <header>
-    <div class="cover"></div>
+    <div class="cover" id="top"></div>
 </header>
 
-<main class="main">
-    <div class="main_inner">
-        <div class="main_title-wrapper">
-            <button class="button button-back small-text">
-                <div class="button-icon back-icon"></div>
-                На главную
-            </button>
+<main class="main" >
+        <div class="main_title-wrapper inner">
+            <a class="button-back" href="../../index.html">
+                <button class="button small-text">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.66667 4.16669L2.5 8.33335L6.66667 12.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.5 8.33337H9.16667C13.7692 8.33337 17.5 12.0642 17.5 16.6667V17.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    На главную
+                </button>
+            </a>
             <h1>NOMA — event coordinator app</h1>
         </div>
-        <div class="description-table">
+        <div class="description-table inner">
             <div class="description-table_item">
                 <h3 class="description-table_item-title">О проекте</h3>
                 <div class="description-table_item-text small-text">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -68,9 +72,9 @@
 
         <div class="steps">
             <div class="step">
-                <h3 class="step-count accent">ЭТАП #1</h3>
-                <h2>Brand & Strategy Kickoff</h2>
-                <div class="normal-text">In a four hour workshop, we jointly developed brand attributes, target groups
+                <h3 class="stp-count accent inner">ЭТАП #1</h3>
+                <h2 class="inner">Brand & Strategy Kickoff</h2>
+                <div class="normal-text inner">In a four hour workshop, we jointly developed brand attributes, target groups
                     and corporate goals. It is not the goal to have extensive discussions or to develop a perfect
                     solution, but to make quick decisions, to get commitment and to be able to act strategically despite
                     limited time and budget.
@@ -79,9 +83,9 @@
                 <div class="step-preview-description secondary">MediaFM — стриминговый аудиосервис, позволяющий прослушивать любимые треки</div>
             </div>
             <div class="step">
-                <h3 class="step-count accent">ЭТАП #2</h3>
-                <h2>Brand & Strategy Kickoff</h2>
-                <div class="normal-text">In a four hour workshop, we jointly developed brand attributes, target groups
+                <h3 class="step-count accent inner">ЭТАП #2</h3>
+                <h2 class="inner">Brand & Strategy Kickoff</h2>
+                <div class="normal-text inner">In a four hour workshop, we jointly developed brand attributes, target groups
                     and corporate goals. It is not the goal to have extensive discussions or to develop a perfect
                     solution, but to make quick decisions, to get commitment and to be able to act strategically despite
                     limited time and budget.
@@ -90,12 +94,18 @@
         </div>
 
         <h2 class="final-text">Спасибо за просмотр! ☺️</h2>
-    </div>
 
-    <button class="button back-up-button small-text">
-        <div class="back-up-icon button-icon"></div>
-        Вернуться к началу
-    </button>
+    <a href="#top">
+        <button class="button back-up-button small-text">
+            <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 15.8333V4.16663" stroke="black" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="1.66667"/>
+                <path d="M4.16675 9.99996L10.0001 4.16663L15.8334 9.99996" stroke="black" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="1.66667"/>
+            </svg>
+            Вернуться к началу
+        </button>
+    </a>
 </main>
 
 </body>
