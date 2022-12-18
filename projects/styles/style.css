@@ -2,7 +2,7 @@
     height: 520px;
     width: 100%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
-    background: url("../../../assets/images/project-1/cover.png") no-repeat;
+    background: url("../../assets/images/project-1/cover.png") no-repeat;
     background-size: cover;
 }
 
@@ -98,7 +98,7 @@
     min-height: 150px;
     width: 100%;
     margin: 24px 0;
-    background: url("../../../assets/images/project-1/slide.png") no-repeat;
+    background: url("../../assets/images/project-1/slide.png") no-repeat;
     background-size: contain;
 }
 
