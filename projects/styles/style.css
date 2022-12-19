@@ -106,10 +106,7 @@
 }
 
 .step-preview {
-}
-
-.step-preview-description {
-    text-align: center;
+    margin: 16px 0; 
 }
 
 .final-text {
