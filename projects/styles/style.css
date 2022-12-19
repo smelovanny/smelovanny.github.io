@@ -60,6 +60,9 @@
 .description-table_item-text {
     border-bottom: 1px solid #9057A4;
     padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     flex: 1;
 }
 
@@ -110,7 +113,7 @@
 }
 
 .step-preview {
-    margin: 16px 0; 
+    margin: 16px 0;
 }
 
 .final-text {
