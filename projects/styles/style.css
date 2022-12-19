@@ -13,6 +13,10 @@
     background: url("../../assets/images/project-2-music-app/top-cover.png") no-repeat;
 }
 
+.project-3-background {
+    background: url("../../assets/images/project-3-bank-app/top-caver-2.png") no-repeat;
+}
+
 .main {
     padding: 64px;
     display: flex;
