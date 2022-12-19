@@ -2,8 +2,15 @@
     height: 520px;
     width: 100%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
-    background: url("../../assets/images/project-1/cover.png") no-repeat;
     background-size: cover;
+}
+
+.project-1-background {
+    background: url("../../assets/images/project-1-db/top-cover.png") no-repeat;
+}
+
+.project-2-background {
+    background: url("../../assets/images/project-2-music-app/top-cover.png") no-repeat;
 }
 
 .main {
@@ -31,13 +38,10 @@
     left: -200px;
 }
 
-
-
 .description-table {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-bottom: 30px;
 }
 
 .description-table_item {
@@ -61,12 +65,19 @@
     margin-left: 272px;
 }
 
-.external-link-icon {
-    width: 20px;
-    height: 20px;
-    background-size: contain;
+.external-link {
     cursor: pointer;
-    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.external-link:hover > .small-text {
+    color: #89559A;
+}
+
+.external-link:hover > svg > path {
+    stroke: #89559A;
 }
 
 .steps {
@@ -95,14 +106,10 @@
 }
 
 .step-preview {
-    min-height: 150px;
-    margin: 24px 0;
-    background-size: contain;
 }
 
 .step-preview-description {
     text-align: center;
-    width: 100%;
 }
 
 .final-text {
