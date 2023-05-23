@@ -2,15 +2,19 @@
     height: 520px;
     width: 100%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
-    background-size: cover;
+
 }
 
 .project-1-background {
     background: url("../../assets/images/project-1-db/top-cover.png") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .project-2-background {
     background: url("../../assets/images/project-2-music-app/top-cover.png") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .project-3-background {
@@ -58,7 +62,7 @@
 }
 
 .description-table_item-text {
-    border-bottom: 1px solid #9057A4;
+    border-bottom: 1px solid #DCD6EA;
     padding-bottom: 16px;
     display: flex;
     flex-direction: column;

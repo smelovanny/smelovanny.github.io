@@ -5,7 +5,7 @@
     justify-content: center;
     background: rgba(253, 253, 253, 0.7);
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid #89559A;
+    border-bottom: 1px solid #DCD6EA;
     position: fixed;
     z-index: 3;
 }

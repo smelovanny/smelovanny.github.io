@@ -13,21 +13,29 @@ body {
     background: #F8F7F9;
 }
 
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #222424;
+}
+
 h2 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 28px;
     line-height: 32px;
     color: #222424;
 }
 
 h3 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 28px;
-    color: #000000;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #222424;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -36,7 +44,7 @@ a{
 }
 
 .link:hover {
-    color: #89559A;
+    color: #8560D5;
 }
 
 .flex {
@@ -64,19 +72,42 @@ a{
     font-weight: bold;
 }
 
+.normal-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222424;
+}
+
+.normal-text-bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #222424;
+}
+
 .accent {
-    color: #89559A;
+    color: #8560D5;
+}
+
+.color-1 {
+    color: #DCD6EA;
+}
+
+.hover-1 {
+    color: #EDE4F8;
+}
+
+.color-2 {
+    color: #F9DB8E;
+}
+
+.hover-2 {
+    color: #FFEEB4;
 }
 
 .secondary {
     color: #A8A8A8;
-}
-
-.normal-text {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
-    color: #222424;
 }
 
 .button {
@@ -91,9 +122,9 @@ a{
 }
 
 .button:hover {
-    background: #89559A;
+    background: #8560D5;
     color: white;
-    border: 1px solid #89559A;
+    border: 1px solid #8560D5;
 }
 
 .button:hover > svg > path {
@@ -109,6 +140,14 @@ a{
 .list {
     display: flex;
     flex-direction: column;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #DCD6EA;
+}
+
+.list-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
 }
 
 .list_items {
