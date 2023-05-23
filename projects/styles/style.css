@@ -36,7 +36,7 @@
 
 .main_title-wrapper {
     display: flex;
-    align-items: center;
+    align-items: top;
     position: relative;
     margin-bottom: 44px;
 }

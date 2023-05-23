@@ -69,7 +69,12 @@ a {
 }
 
 .small-text-bold {
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222424;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
 }
 
 .normal-text {
@@ -147,9 +152,12 @@ a {
 .list-bottom {
     display: flex;
     flex-direction: column;
-    padding-bottom: 24px;
 }
 
 .list_items {
     padding-left: 20px;
+}
+
+.list_item {
+    padding-bottom: 8px;
 }
