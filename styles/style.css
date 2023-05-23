@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding: 16px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     background: rgba(253, 253, 253, 0.7);
@@ -24,10 +24,10 @@
 
 .header_item-inner {
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     align-items: end;
     flex: 1;
+    gap: 8px;
 }
 
 .resume {
@@ -113,8 +113,8 @@
 }
 
 .card {
-    min-width: 572px;
-    width: 572px;
+    min-width: 562px;
+    width: 562px;
     min-height: 424px;
     height: 424px;
     background: #FDFDFD;
@@ -125,7 +125,7 @@
     cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.04);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
 }

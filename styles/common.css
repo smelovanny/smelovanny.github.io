@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
     width: 100%;
-    background: #F8F7F9;
+    background: #F7F7F8;
 }
 
 
@@ -131,6 +131,37 @@ a {
     color: white;
     border: 1px solid #8560D5;
 }
+
+.button_accent {
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: none;
+    background: #f9db8e;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.button_accent:hover {
+    background: #ffeeb4;
+}
+
+.button_secondary {
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: none;
+    background: #dcd6ea;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.button_secondary:hover {
+    background: #ede4f8;
+}
+
 
 .button:hover > svg > path {
     stroke: white;
